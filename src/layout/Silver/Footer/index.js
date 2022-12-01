@@ -1,15 +1,18 @@
 import Icon from 'components/Icon';
+import device from 'responsive/Device';
 import styled from 'styled-components';
 
 const FooterWrraper = styled.div`
   display: flex;
-  justify-content: space-around;
-  column-gap: 24px;
   border-top: 1px;
   border-top-width: 2px;
   border-top-style: outset;
   border-top-color: #e2e2ea;
-  padding: 20px 0px;
+  @media ${device.mobileM} {
+    padding: 20px 0px;
+    justify-content: space-around;
+    column-gap: 24px;
+  }
 `;
 const Footer = () => {
   return (

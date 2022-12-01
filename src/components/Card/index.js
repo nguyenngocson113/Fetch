@@ -5,21 +5,26 @@ import Petro from '../../assets/Oil';
 import Food from '../../assets/Food';
 import Icon from 'components/Icon';
 import Button from 'components/Button';
+import device from 'responsive/Device';
 
 const BannerImg = styled.div`
   display: block;
-  width: 199px;
-  height: 98px;
   border-radius: 4px 4px 0px 0px;
+  @media ${device.mobileM} {
+    width: 199px;
+    height: 98px;
+  }
 `;
 const CardWraper = styled.div`
-  height: 240px;
-  width: 200px;
   box-sizing: border-box;
   background: #ffffff;
   border: 1px solid #f1f1f5;
   box-shadow: 0px 12px 18px rgba(23, 23, 37, 0.04);
   border-radius: 4px;
+  @media ${device.mobileM} {
+    height: 240px;
+    width: 200px;
+  }
 `;
 
 const Body = styled.div`
@@ -33,7 +38,10 @@ const Description = styled.p`
   color: #92929d;
   font-weight: 400;
   letter-spacing: -0.005em;
-  margin: 0px;
+
+  @media ${device.mobileM} {
+    margin: 0px;
+  }
 `;
 const ButtonView = styled.p`
   margin: 0px;

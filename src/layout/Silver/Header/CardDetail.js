@@ -1,13 +1,16 @@
 import Button from 'components/Button';
 import Icon from 'components/Icon';
 import React from 'react';
+import device from 'responsive/Device';
 import styled from 'styled-components';
 
 const Status = styled.p`
   font-weight: 600;
   font-size: 14px;
   color: #b5b5be;
-  margin: 24px 24px 8px 24px;
+  @media ${device.mobileM} {
+    margin: 24px 24px 8px 24px;
+  }
 `;
 const Coin = styled.p`
   font-weight: 400;
@@ -15,7 +18,10 @@ const Coin = styled.p`
   line-height: 56px;
   letter-spacing: -0.5px;
   color: #171725;
-  margin: 0px 0px 33px 24px;
+
+  @media ${device.mobileM} {
+    margin: 0px 0px 33px 24px;
+  }
 `;
 const Description = styled.p`
   font-weight: 400;
@@ -24,6 +30,9 @@ const Description = styled.p`
   letter-spacing: -0.005em;
   color: #92929d;
   margin: 12px 24px;
+  @media ${device.mobileM} {
+    margin: 24px 24px 8px 24px;
+  }
 `;
 
 const Progress = styled.progress`

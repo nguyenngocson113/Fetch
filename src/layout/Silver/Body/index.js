@@ -2,9 +2,12 @@ import React from 'react';
 import List from 'components/CardList';
 import styled from 'styled-components';
 import mockData from './mockData.json';
+import device from 'responsive/Device';
 
 const BodyWrapper = styled.div`
-  margin-top: 240px;
+  @media ${device.mobileM} {
+    margin-top: 240px;
+  }
 `;
 
 const Body = () => {
