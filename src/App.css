@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  font-family: 'Hellix';
+  font-style: normal;
+  line-height: 24px;
 }
 
 .App-logo {

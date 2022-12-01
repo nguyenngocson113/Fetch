@@ -1,0 +1,76 @@
+{
+  "data": [
+    {
+      "backgroundImg": "petro",
+      "title": "Petrol",
+      "items": [
+        {
+          "bannerColor": "#A461D8",
+          "title": "15 Coins",
+          "description": "50% discount for every $100 top-up on your Shell Petrol Card",
+          "isNeedCoin": false
+        },
+        {
+          "bannerColor": "#2CC2B0",
+          "title": "1,000 Coins",
+          "description": "70% discount top-up on your Shell Petrol Card",
+          "isNeedCoin": true
+        },
+        {
+          "bannerColor": "#A461D8",
+          "title": "15 Coins",
+          "description": "50% discount for every $100 top-up on your Shell Petrol Card",
+          "isNeedCoin": false
+        }
+      ]
+    },
+    {
+      "backgroundImg": "coin",
+      "title": "Rental Rebate",
+      "items": [
+        {
+          "bannerColor": "#A461D8",
+          "title": "15 Coins",
+          "description": "Get $20 Rental rebate",
+          "isNeedCoin": false
+        },
+        {
+          "bannerColor": "#2CC2B0",
+          "title": "1,000 Coins",
+          "description": "Get $500 Rental rebate",
+          "isNeedCoin": true
+        },
+        {
+          "bannerColor": "#A461D8",
+          "title": "15 Coins",
+          "description": "50% discount for every $100 top-up on your Shell Petrol Card",
+          "isNeedCoin": false
+        }
+      ]
+    },
+    {
+      "backgroundImg": "food",
+      "title": "Food and Beverage",
+      "items": [
+        {
+          "bannerColor": "#A461D8",
+          "title": "15 Coins",
+          "description": "Get $20 Rental rebate",
+          "isNeedCoin": false
+        },
+        {
+          "bannerColor": "#2CC2B0",
+          "title": "1,000 Coins",
+          "description": "Get $500 Rental rebate",
+          "isNeedCoin": true
+        },
+        {
+          "bannerColor": "#A461D8",
+          "title": "15 Coins",
+          "description": "50% discount for every $100 top-up on your Shell Petrol Card",
+          "isNeedCoin": false
+        }
+      ]
+    }
+  ]
+}
